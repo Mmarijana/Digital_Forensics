@@ -57,6 +57,8 @@ pip install matplotlib scikit-learn reportlab pillow tkintermapview folium geopy
 
 4. Pokrenuti aplikaciju:
 python app/main.py
+
+Ucitati podatke iz datoteke sa test primerom: fb_archive_with_image_samples.zip
 ```
 
 ---
@@ -69,6 +71,7 @@ app/
     *_engine.py
 README.md
 .gitignore
+fb_archive_with_image_samples.zip
 
 ---
 

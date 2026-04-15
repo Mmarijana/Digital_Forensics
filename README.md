@@ -76,11 +76,6 @@ README.md
 
 Aplikacija koristi test Facebook arhive koje korisnik može preuzeti sa svog naloga putem Facebook Data Export opcije.
 
----
-## 📸 Izgled aplikacije
-<img width="1916" height="1013" alt="image" src="https://github.com/user-attachments/assets/5525a5c9-1986-4f2a-a26c-fef0eea05550" />
-
----
 
 ## Autor
 

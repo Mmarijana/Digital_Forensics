@@ -4,23 +4,23 @@ FB - Forensics Viewer je desktop aplikacija razvijena u Pythonu za digitalnu for
 
 ---
 
-## 🚀 Glavne funkcionalnosti
+## Glavne funkcionalnosti
 
-* 📂 Učitavanje Facebook ZIP arhive
-* 👤 Prikaz osnovnih informacija o nalogu
-* 🔐 Analiza login aktivnosti (lokacija, IP adrese)
-* 🤖 AI detekcija sumnjivih aktivnosti
-* 📊 Generisanje grafikona (lokacije, vremenski tok)
-* 🕒 Timeline događaja sa filtriranjem
-* 💬 Analiza poruka (forenzika komunikacije)
-* 🧠 Detekcija anomalija (ML – Isolation Forest)
-* 🗺️ Vizualizacija login lokacija na mapi
-* 🖼️ Analiza slika (detekcija AI generisanog sadržaja)
-* 🧾 Export izveštaja (PDF i HTML)
+* Učitavanje Facebook ZIP arhive
+* Prikaz osnovnih informacija o nalogu
+* Analiza login aktivnosti (lokacija, IP adrese)
+* AI detekcija sumnjivih aktivnosti
+* Generisanje grafikona (lokacije, vremenski tok)
+* Timeline događaja sa filtriranjem
+* Analiza poruka (forenzika komunikacije)
+* Detekcija anomalija (ML – Isolation Forest)
+* Vizualizacija login lokacija na mapi
+* Analiza slika (detekcija AI generisanog sadržaja)
+* Export izveštaja (PDF i HTML)
 
 ---
 
-## 🧠 Arhitektura sistema
+## Arhitektura sistema
 
 Aplikacija je razvijena korišćenjem modularne arhitekture:
 
@@ -33,7 +33,7 @@ Ovakav pristup omogućava jasno razdvajanje između prikaza i logike (*separatio
 
 ---
 
-## 🛠️ Tehnologije
+## Tehnologije
 
 * Python
 * Tkinter (GUI)
@@ -44,23 +44,20 @@ Ovakav pristup omogućava jasno razdvajanje između prikaza i logike (*separatio
 
 ---
 
-## ▶️ Pokretanje aplikacije
+## Pokretanje aplikacije
 
 1. Klonirati repozitorijum:
 
-```
 git clone https://github.com/USERNAME/Digital_Forensics.git
 ```
 
 2. Instalirati zavisnosti:
 
-```
 pip install -r requirements.txt
 ```
 
 3. Pokrenuti aplikaciju:
 
-```
 python main.py
 ```
 
@@ -85,13 +82,13 @@ Digital_Forensics/
 
 ---
 
-## 📌 Napomena
+## Napomena
 
 Aplikacija koristi test Facebook arhive koje korisnik može preuzeti sa svog naloga putem Facebook Data Export opcije.
 
 ---
 
-## 🎓 Autor
+## Autor
 
 Marijana Cvetković
 Projekat iz oblasti digitalne forenzike

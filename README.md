@@ -44,47 +44,41 @@ Ovakav pristup omogućava jasno razdvajanje između prikaza i logike (*separatio
 
 ---
 
-## Pokretanje aplikacije
+## ▶️ Pokretanje aplikacije
 
-1. Klonirati repozitorijum:
+1. Preuzeti projekat sa GitHub-a
 
-git clone https://github.com/USERNAME/Digital_Forensics.git
-```
+2. Kreirati virtualno okruženje:
+py -m venv .venv
+.venv\Scripts\activate
 
-2. Instalirati zavisnosti:
+3. Instalacija potrebnih biblioteka
+pip install matplotlib scikit-learn reportlab pillow tkintermapview folium geopy
 
-pip install -r requirements.txt
-```
-
-3. Pokrenuti aplikaciju:
-
-python main.py
+4. Pokrenuti aplikaciju:
+python app/main.py
 ```
 
 ---
 
 ## 📁 Struktura projekta
 
-```
-Digital_Forensics/
-│
-├── ui/
-├── archive_loader.py
-├── risk_engine.py
-├── ml_engine.py
-├── timeline_engine.py
-├── messages_engine.py
-├── map_engine.py
-├── report_generator.py
-├── main.py
-└── README.md
-```
+app/
+    main.py
+    ui/
+    *_engine.py
+README.md
+.gitignore
 
 ---
 
 ## Napomena
 
 Aplikacija koristi test Facebook arhive koje korisnik može preuzeti sa svog naloga putem Facebook Data Export opcije.
+
+---
+## 📸 Izgled aplikacije
+<img width="1916" height="1013" alt="image" src="https://github.com/user-attachments/assets/5525a5c9-1986-4f2a-a26c-fef0eea05550" />
 
 ---
 

@@ -62,6 +62,23 @@ Ucitati podatke iz datoteke sa test primerom: fb_archive_with_image_samples.zip
 ```
 
 ---
+🛠 Kreiranje izvršne (.exe) verzije aplikacije
+
+Aplikaciju je moguće pokrenuti i bez Python okruženja, tako što se prethodno generiše izvršni fajl (.exe).
+
+Koraci:
+Instalirati alat:
+pip install pyinstaller
+
+Pokrenuti komandu u root folderu projekta:
+pyinstaller --onefile --noconsole --name FB_Forensics_Viewer app/main.py
+
+Nakon uspešnog izvršenja, .exe fajl će biti dostupan u folderu:
+dist/
+Pokretanje aplikacije:
+Otvoriti dist folder
+Pokrenuti main.exe dvostrukim klikom
+
 
 ## 📁 Struktura projekta
 

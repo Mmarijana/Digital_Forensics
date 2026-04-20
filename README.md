@@ -53,7 +53,7 @@ py -m venv .venv
 .venv\Scripts\activate
 
 3. Instalacija potrebnih biblioteka
-pip install matplotlib scikit-learn reportlab pillow tkintermapview folium geopy
+pip install matplotlib scikit-learn reportlab pillow tkintermapview folium geopy transformers torch
 
 4. Pokrenuti aplikaciju:
 python app/main.py

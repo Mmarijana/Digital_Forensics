@@ -56,7 +56,7 @@ py -m venv .venv
 pip install matplotlib scikit-learn reportlab pillow tkintermapview folium geopy transformers torch
 
 4. Pokrenuti aplikaciju:
-python app/main.py
+py app/main.py
 
 Ucitati podatke iz datoteke sa test primerom: fb_archive_with_image_samples.zip
 ```
